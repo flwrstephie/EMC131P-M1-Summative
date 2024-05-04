@@ -27,6 +27,7 @@ let gameOver = false;
 
 function preload ()
 {
+    // Assets by Stephanie Virtudazo
     this.load.image('sky', './assets/sprites/sky.png');
     this.load.image('ground', './assets/sprites/ground.png');
     this.load.image('platform1', './assets/sprites/platform1.png');
