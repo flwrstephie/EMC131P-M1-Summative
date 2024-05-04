@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Goldfish Chase | M1 Summative Assessment - VIRTUDAZO</title>
+    <link rel="icon" type="image/png" href="./assets/sprites/fish.png">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+
+        canvas {
+            border: 10px solid #d5ad7b;
+            position: relative; 
+            margin-top: 50px; 
+        }
+
+        h1 {
+            position: absolute;
+            top: 10px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            z-index: 1;
+            font-family: Overmuch;
+            color: #282229;
+        }
+
+        @font-face {
+            font-family: "Overmuch";
+            src: url("./assets/fonts/OvermuchRegular.ttf") format("truetype");
+        }
+    </style>
+</head>
+<body>
+    <!-- Font Loader -->
+    <div id="fontLoader" style="font-family: 'Overmuch'; position: absolute; left: -1000px; visibility: hidden;">.</div>
+
+    <h1>Crumb's Goldfish Chase</h1>
+    <script src="./scripts/phaser.min.js"></script>
+    <script src="./scripts/game.js"></script>
+</body>
+</html>
